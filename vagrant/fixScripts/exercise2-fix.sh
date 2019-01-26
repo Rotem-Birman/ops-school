@@ -1,2 +1,2 @@
-#!/bin/bash
-#add fix to exercise2 here
+!/bin/bash
+sudo sed -i 's/www.ascii-art.de/trash/' /etc/hosts

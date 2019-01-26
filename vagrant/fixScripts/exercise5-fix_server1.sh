@@ -1,2 +1,3 @@
-#!/bin/bash
-#add fix to exercise5-server1 here
+!/bin/bash
+cp /vagrant/.vagrant/machines/server1/virtualbox/private_key ~vagrant/.ssh/id_rsa
+chmod 600 ~vagrant/.ssh/id_rsa
